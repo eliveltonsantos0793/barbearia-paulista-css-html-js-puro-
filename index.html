@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d0f0d">
+  <meta name="description"
+    content="Corte, barba e degradê com acabamento na navalha. Agende seu horário direto pelo WhatsApp.">
+  <meta property="og:title" content="Barbearia Paulista">
+  <meta property="og:description" content="Corte na tesoura. Acabamento na navalha. Agende pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  <title>Barbearia Paulista | Corte e barba em Tijucas</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#topo" aria-label="Barbearia Paulista - início">
+        <span class="pole" aria-hidden="true"></span><span>Barbearia Paulista</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a><a href="#casa">A casa</a><a href="#depoimentos">Clientes</a><a
+          href="#visite">Visite</a>
+        <a class="button button-gold button-small" data-whatsapp href="#">Agendar</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"
+        aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação móvel" hidden>
+      <a href="#servicos">Serviços</a><a href="#casa">A casa</a><a href="#depoimentos">Clientes</a><a
+        href="#visite">Visite</a>
+      <a class="button button-gold" data-whatsapp href="#">Agendar pelo WhatsApp</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero grain" id="topo">
+      <img class="hero-image" src="assets/img/hero.png" alt="Interior de uma barbearia clássica com cadeiras e espelhos"
+        fetchpriority="high">
+      <div class="hero-shade hero-shade-bottom"></div>
+      <div class="hero-shade hero-shade-left"></div>
+      <div class="container hero-content">
+        <p class="eyebrow rise">Tradição, estilo e cuidado · desde 2012</p>
+        <h1 class="rise delay-1">Corte na tesoura.<br><em>Acabamento</em> na navalha.</h1>
+        <p class="hero-copy rise delay-2">Barbeiros experientes, toalha quente e um café passado na hora. Escolha o
+          serviço e agende em segundos pelo WhatsApp.</p>
+        <div class="hero-actions rise delay-3">
+          <a class="button button-gold" data-whatsapp href="#">◉ Agendar pelo WhatsApp</a>
+          <a class="button button-outline" href="#servicos">Ver serviços e preços</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="servicos">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Serviços</p>
+            <h2>Cardápio da casa</h2>
+          </div>
+          <p class="section-intro">Agende um serviço direto ou selecione os serviços para montar seu pacote e enviar
+            tudo de uma vez.</p>
+        </div>
+        <div class="service-grid" id="service-grid"></div>
+        <aside class="package-bar" id="package-bar" aria-live="polite" hidden>
+          <div class="package-info">
+            <p class="package-label">Seu pacote · <span id="package-count">0 serviços</span></p>
+            <p id="package-names"></p>
+          </div>
+          <div class="package-actions"><strong id="package-total">R$ 0,00</strong><a class="button button-gold"
+              id="package-whatsapp" href="#" target="_blank" rel="noopener noreferrer">Enviar no WhatsApp</a></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section house-section" id="casa">
+      <div class="container house-layout">
+        <div class="photo-collage">
+          <img class="photo-cut" src="assets/img/corte.png" alt="Barbeiro fazendo acabamento de corte" loading="lazy">
+          <img class="photo-tools" src="assets/img/ambiente.png" alt="Detalhes e ferramentas de barbearia"
+            loading="lazy">
+          <img class="photo-beard" src="assets/img/barba.png" alt="Serviço de barba com acabamento na navalha"
+            loading="lazy">
+          <div class="experience-card"><span class="scissors-icon" aria-hidden="true">✂</span>
+            <p><strong>+12 mil</strong><br>cortes feitos com capricho</p>
+          </div>
+        </div>
+        <div class="house-copy">
+          <p class="eyebrow">A casa</p>
+          <h2>Tradição de barbearia antiga, técnica de hoje.</h2>
+          <p>Na Barbearia Paulista cada atendimento tem hora marcada e tempo de sobra. Nada de fila, nada de pressa:
+            você senta, toma um café e sai do jeito que pediu.</p>
+          <ul class="feature-list">
+            <li><span>✓</span> Navalha descartável e ferramentas esterilizadas a cada cliente</li>
+            <li><span>✓</span> Produtos profissionais para cabelo e barba</li>
+            <li><span>✓</span> Café, água e cerveja por conta da casa</li>
+            <li><span>✓</span> Wi-Fi e ar-condicionado</li>
+          </ul>
+          <a class="button button-gold" data-whatsapp
+            data-message="Olá, Barbearia Paulista! Quero conhecer a casa e marcar um horário." href="#">Marcar meu
+            horário</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials-section" id="depoimentos">
+      <div class="container">
+        <p class="eyebrow">Clientes</p>
+        <h2>Quem visita, sempre volta.</h2>
+        <div class="testimonial-grid">
+          <figure class="testimonial">
+            <div class="stars" aria-label="5 estrelas">★★★★★</div>
+            <blockquote>“Melhor degradê que já fiz. Ambiente top, café bom e marquei tudo pelo WhatsApp em dois
+              minutos.”</blockquote>
+            <figcaption>Rafael M.</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <div class="stars" aria-label="5 estrelas">★★★★★</div>
+            <blockquote>“A barba com toalha quente é outro nível. Virei cliente fixo.”</blockquote>
+            <figcaption>Thiago S.</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <div class="stars" aria-label="5 estrelas">★★★★★</div>
+            <blockquote>“Pontuais, caprichosos e sem enrolação. Recomendo de olhos fechados.”</blockquote>
+            <figcaption>Lucas A.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit-section grain" id="visite">
+      <img class="visit-image" src="assets/img/ambiente.png" alt="" loading="lazy">
+      <div class="visit-shade"></div>
+      <div class="container visit-layout">
+        <div class="visit-copy">
+          <p class="eyebrow">Visite</p>
+          <h2>Sua cadeira<br><em>está esperando.</em></h2>
+          <p>Atendimento com hora marcada. Mande uma mensagem com o serviço e o melhor dia — a gente responde rapidinho.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-gold" data-whatsapp href="#">◉ Chamar no WhatsApp</a>
+            <a class="button button-outline" href="https://maps.app.goo.gl/E7zQAMZgfCmLQ1QC6" target="_blank"
+              rel="noopener noreferrer">⌖ Como chegar</a>
+          </div>
+        </div>
+        <div class="visit-card">
+          <div>
+            <h3>◷ &nbsp; Horários</h3>
+            <dl class="hours-list">
+              <div>
+                <dt>Terça a sábado</dt>
+                <dd>9h às 20h</dd>
+              </div>
+              <div>
+                <dt>Segunda</dt>
+                <dd>14h às 20h</dd>
+              </div>
+              <div>
+                <dt>Domingo</dt>
+                <dd class="closed">Fechado</dd>
+              </div>
+            </dl>
+          </div>
+          <div>
+            <h3>⌖ &nbsp; Endereço</h3>
+            <p>Avenida Bayer Filho, 998 — Centro - Tijucas/SC</p>
+          </div>
+          <div>
+            <h3>◉ &nbsp; WhatsApp</h3><a class="phone-link" data-whatsapp-display href="#">(48) 99998-5115</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><span class="pole footer-pole" aria-hidden="true"></span> © <span id="year"></span> Barbearia Paulista · Todos
+        os direitos reservados.</p>
+      <a href="https://www.linkedin.com/in/eliveltondev" target="_blank" rel="noopener noreferrer">Desenvolvido por
+        Elivelton Santos ↗</a>
+    </div>
+  </footer>
+  <a class="floating-whatsapp" data-whatsapp href="#" target="_blank" rel="noopener noreferrer"
+    aria-label="Falar com a barbearia no WhatsApp">◉</a>
+</body>
+
+</html>
