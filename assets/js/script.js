@@ -2,9 +2,9 @@
 "use strict";
 
 const BARBERSHOP = {
-  name: "Barbearia Paulista",
-  whatsapp: "5548999985115",
-  whatsappDisplay: "(48) 99998-5115",
+  name: "Barbearia"// Paulista ",
+  whatsapp: //"5548999985115",
+  whatsappDisplay: 999999999999//"(48) 99998-5115",
   services: [
     { id: "corte", name: "Corte masculino", description: "Tesoura ou máquina, finalizado com lavagem e pomada.", price: 55, duration: "40 min" },
     { id: "degrade", name: "Degradê navalhado", description: "Fade preciso com acabamento na navalha.", price: 65, duration: "50 min" },
